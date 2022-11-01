@@ -1,0 +1,17 @@
+{
+  "name": "2dlighttestgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx tsc -p tsconfig-cjs.json && browserify lib/game.js > game.js"
+  },
+  "author": "Adri",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.8"
+  }
+}
